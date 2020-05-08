@@ -1,0 +1,391 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
+    background: #C1C9CF;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #DB473F;
+    text-decoration: none;
+}
+/* Fim estilos gerais */
+
+
+/* Header */
+.logo {
+    padding: 20px 0;
+}
+
+.header .container img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.header {
+    background: #121212;
+}
+
+.menu_sup_direito {
+    padding-right: 0px;
+    padding-top: 5px;
+}
+
+.menu_sup_direito a {
+    color: white;
+}
+
+.menu_sup_direito .topo a:hover {
+    color: white;
+    background: #DB473F;
+    border: 1px solid #DB473F;
+    border-radius: 10px;
+}
+
+.menu_sup_direito .country {
+    color: white;
+    margin-top: 55px;
+}
+
+.menu_sup_direito .country a {
+    padding-left: 0px;
+}
+
+.header .menu_area {
+    padding: 0px;
+    font-size: 14px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.menu_area li a {
+    color: white;
+    border-radius: 10px !important;
+}
+
+.menu_area li a:hover {
+    color: #DB473F;
+}
+
+.menu_area .dropdown-item {
+    color: #121212;
+}
+
+.menu_area .dropdown-menu {
+    border-radius: 10px !important;
+}
+
+.menu_area .dropdown-item:hover {
+    background-color: #E2E6E8;
+    border-radius: 0px !important;
+}
+
+.menu_area .active {
+    background-color: #DB473F !important;
+}
+
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: #DB473F !important;
+}
+
+/* Caixa de Busca */
+input[type="text"] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin: 0px;
+    outline: none;
+    padding: 6px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+  
+input[type="text"]:focus {
+    border-color: #DB473F;
+    box-shadow: 0 0 1px 0 #DB473F;
+}
+  
+.caixaBusca input[type="text"] {
+    padding-left: 40px;
+}
+  
+.caixaBusca {
+    position: relative;
+    padding: 0px;
+    padding-right: 0px;
+}
+  
+.caixaBusca i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    padding: 8px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+  
+.caixaBusca input[type="text"]:focus + i {
+    color: #DB473F;
+}
+  
+.caixaBusca.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+  
+.caixaBusca.inputIconBg input[type="text"]:focus + i {
+    color: #fff;
+    background-color: #DB473F;
+}
+/* Fim Caixa de Busca */
+/* Fim Header */
+
+
+/* Main */
+/* Carousel */
+.carousel {
+    padding-bottom: 15px;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    /*background-color: #404040;*/
+}
+
+.carousel-inner {
+    /*height: 600px;  Visualizar menor */
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.carousel-caption {
+    text-align: left;
+    padding-left: 81px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    line-height: 25px;
+}
+/* Fim Carousel */
+
+.main {
+    padding: 0px;
+}
+
+.main h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 14px;
+}
+
+.no-gutters .card-body {
+    padding: 0px 0px 0px 15px;
+}
+
+.card {
+    background-color: #C1C9CF;
+    border: none;
+}
+
+.card .no-gutters .card-img {
+    position:absolute;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+.card-deck {
+    margin-bottom: 15px;
+}
+
+.exclusive .card-text {
+    margin-bottom: 0px;
+}
+
+.news .alert-dark {
+    background: #121212;
+    color: #fff;
+    border: 1px solid #121212;
+    border-radius: 5px;
+}
+
+.news .alert-dark h1 {
+    margin-bottom: 0px;
+}
+
+.news_card .card-text {
+    margin-bottom: 0px;
+}
+
+.news_card .card-body {
+    padding: 12px 0px;
+}
+
+.mais_lidas {
+    padding: 0px;
+    padding-right: 15px;
+}
+
+.mais_lidas .alert-dark {
+    background: #121212;
+    color: #fff;
+    border: 1px solid #121212;
+    border-radius: 5px;
+}
+
+.mais_lidas .alert-dark h1 {
+    margin-bottom: 0px;
+}
+/* Fim Main */
+
+
+/* Footer */
+.footer {
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #121212;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #D5D5D5;
+}
+
+.footer h2 {
+    color: #DB473F;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #DB473F;
+    margin: 6px 0 12px 0;
+    border-radius: 15px;
+}
+
+.footer_copy {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.left_footer {
+    padding: 0px;
+}
+
+/* Balão de Conversa (Speech Bubbles) */
+.balao {
+    width: 100%;
+    border: 4px solid #D5D5D5;
+    padding: 15px;
+    text-align: left;
+    font-weight: 900;
+    color: #D5D5D5;
+    position: relative;
+}
+
+.bconversa:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #D5D5D5;
+    border-top: 10px solid #D5D5D5;
+    border-bottom: 10px solid transparent;
+    left: 28px;
+    bottom: -23px;
+}
+
+.bconversa:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #121212;
+    border-top: 10px solid #121212;
+    border-bottom: 10px solid transparent;
+    left: 24px;
+    bottom: -13px;
+}
+/* Fim Balão de Conversa (Speech Bubbles) */
+.user_send {
+    text-align: right;
+    padding: 0px;
+    padding-top: 10px;
+    color: white;
+}
+
+.time_send {
+    text-align: right;
+    padding: 0px;
+    padding-top: 10px;
+}
+
+.social_medias a {
+    margin-right: 28px;
+    color: #D5D5D5;
+}
+
+.social_medias a:last-child {
+    margin-right: 0px;
+}
+
+.social_medias a:hover {
+    color: #DB473F;
+}
+/* Fim Footer */
+
+
+
+
+
+
+
+
+
+
+
+/* Area de teste */

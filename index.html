@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias - Chotícias</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flags.css">
+    <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/46060d9aa5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <header class="header">
+        <header class="container header">
+
+            <section class="row">
+                <div class="col-12 header_area">
+                    <div class="row">
+                        <div class="col-2 logo">
+                            <img src="img/logo-sem-fundo.svg" alt="Chotícias Logo">
+                        </div>
+                        <div class="col-10 menu_sup_direito">
+                            <ul class="row nav justify-content-end topo">
+                                <li class="nav-item">
+                                    <a class="nav-link border-right" href="#">Subscribe</a>
+                                </li>
+                                <li class="nav-item border-right">
+                                    <a class="nav-link" href="#">Registrar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Log in</a>
+                                </li>
+                            </ul>
+                            
+                            <ul class="row nav justify-content-end country">
+                                <li class="nav-item">
+                                    <li class="nav-link" href="#">País:</li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-br"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-us"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-es"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-kr"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-ru"></span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><span class="flag flag-jp"></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <ul class="nav nav-pills col-8 menu_area">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><i class="fa fa-home"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Análises</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                    aria-expanded="false">Novidades</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Jogos</a>
+                                    <a class="dropdown-item" href="#">Séries</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">PC</a>
+                                    <a class="dropdown-item" href="#">PS</a>
+                                    <a class="dropdown-item" href="#">Xbox</a>
+                                    <a class="dropdown-item" href="#">Switch</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                    aria-expanded="false">e-Sports</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">LoL</a>
+                                    <a class="dropdown-item" href="#">CS</a>
+                                    <a class="dropdown-item" href="#">R6</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                                    aria-expanded="false">Sobre Nós</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">História</a>
+                                    <a class="dropdown-item" href="#">Contato</a>
+                                    <a class="dropdown-item" href="#">Trabalhe Conosco</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Loja Online</a>
+                            </li>
+                        </ul>
+
+                        <form class="col-4 caixaBusca">
+                            <div class="caixaBusca">
+                                <input type="text" placeholder="Pesquisar...">
+                                <i class="fa fa-search fa-lg fa-fw" aria-hidden="true"></i>
+                            </div>
+                        </form>
+                    </div>
+
+
+                </div>
+            </section>
+
+        </header>
+    </header>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Videogames nunca foram tão importantes quanto na quarentena</h5>
+                    <p>Em meio à pandemia de coronavírus, jogos são a melhor maneira de aliviar a tensão diária e driblar uma realidade traiçoeira.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LoL: Cloud9 está classificada para a final da LCS 2020</h5>
+                    <p>A equipe da Cloud9 venceu a Evil Geniuses enquanto a FlyQuest eliminou a TSM.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Vendidas mais de 2 milhões de unidades de Resident Evil 3 remake</h5>
+                    <p>Nos primeiros 5 dias.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Just Cause 4 ficará gratuito na Epic Games Store</h5>
+                    <p>Juntamente com Wheels of Aurelia.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Call of Duty: Warzone regista mais de 50 milhões de jogadores</h5>
+                    <p>Activision agradece aos jogadores.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <main class="container main">
+    
+        <section class="row">
+            <div class="col-8">
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/exclusive.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body exclusive">
+                                <p class="card-text"><small class="text-muted">Segunda-feira 20 de Abril 2020</small></p>
+                                <h5 class="card-title"><a href="#">Microsoft revela Xbox One X com tema Cyberpunk 2077</a></h5>
+                                <p class="card-text">A Microsoft e a CD Projekt Red estão se unindo para lançar um pacote Xbox One X de edição limitada inspirado no Cyberpunk 2077, o próximo jogo de RPG de ficção científica em primeira pessoa e mundo aberto. O hardware do Xbox One X de 1 TB...</p>
+                                <p class="card-text"><small class="text-muted"><a href="#">Continue lendo &rarr;</a></small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="alert alert-dark" role="alert">
+                        <h1>Novidades</h1>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="card news_card">
+                        <p class="card-text"><small class="text-muted">Segunda-feira 20 de Abril 2020</small></p>
+                        <h5 class="card-title"><a href="#">Valorant também pode chegar para consoles e smartphones no futuro</a></h5>
+                        <img class="card-img-top" src="img/news1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Valorant tem tudo para ser um dos melhores shooters da atualidade e causar um impacto considerável no mercado de eSports.</p>
+                        </div>
+                    </div>
+                    <div class="card news_card">
+                        <p class="card-text"><small class="text-muted">Segunda-feira 20 de Abril 2020</small></p>
+                        <h5 class="card-title"><a href="#">Pokémon GO deve receber aumento de nível máximo em breve</a></h5>
+                        <img class="card-img-top" src="img/news2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Pokémon GO já conta com uma quantidade considerável de jogadores estacionados no nível 40 há algum tempo, mas uma descoberta feita recentemente deu indícios...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-deck news_card">
+                    <div class="card news_card">
+                        <p class="card-text"><small class="text-muted">Segunda-feira 20 de Abril 2020</small></p>
+                        <h5 class="card-title"><a href="#">Crysis Remastered chegará ao X1, PS4, PC e até Switch</a></h5>
+                        <img class="card-img-top" src="img/news3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Crysis Remastered foi oficialmente anunciado pela Crytek, que revelou que fará o desenvolvimento em conjunto com a Saber Interactive...</p>
+                        </div>
+                    </div>
+                    <div class="card news_card">
+                        <p class="card-text"><small class="text-muted">Segunda-feira 20 de Abril 2020</small></p>
+                        <h5 class="card-title"><a href="#">Assassin's Creed: revelação de jogo para PS5 pode acontecer em breve</a></h5>
+                        <img class="card-img-top" src="img/news4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">A Ubisoft parece que fará uma revelação importante sobre sua franquia Assassin's Creed no próximo feriado. A data pode coincidir com o lançamento do PlayStation 5.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mais_lidas">
+                <div class="alert alert-dark" role="alert">
+                    <h1>Mais lidas</h1>
+                </div>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/promoted1.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#">Microsoft registra novo logo.</a></h5>
+                                <p class="card-text">Agora temos um novo logotipo para o Xbox Series X. Surgiu hoje um registro de marca da Microsoft para o seu console... &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/promoted2.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#">Trials of Mana RPG</a></h5>
+                                <p class="card-text">Secret of Mana é o primeiro jogo que me vem à mente ao lembrar dos tempos áureos do Super Nintendo... &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/promoted3.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#">Death Stranding para PC adiado</a></h5>
+                                <p class="card-text">Os jogadores de PC terão que esperar um pouco mais para mergulhar na história apocalíptica de Death Stranding. &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/promoted4.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#">Lista de trapaças para GTA 5</a></h5>
+                                <p class="card-text">Obter veículos em situações de emergência, ficar invisível, conseguir poder de cura ou até mesmo fazer com... &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row no-gutters">
+                        <div class="col-md-6">
+                            <img src="img/promoted5.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <h5 class="card-title"><a href="#">Jogador termina Doom Eternal em 27 minutos</a></h5>
+                                <p class="card-text">Um jogador conseguiu terminar o game da ID Software em, pasmem, 27 minutos de gameplay. &rarr;</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+
+    <footer class="footer">
+        <footer class="container footer">
+
+            <section class="row">
+                <div class="col-4 left_footer">
+                    <h2>Nossa História</h2>
+                    <p>Somos apaixonados por Jogos, com a criação desse portal de notícias temos o objetivo de manter nossos gamers atualizados.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas perferendis quos nam sequi vel accusantium in, sed aspernatur.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero impedit fuga laborum, aliquid quo a quaerat saepe optio molestiae magni sed officiis magnam, accusamus aperiam ducimus!</p>
+                </div>
+
+                <div class="col-4 middle_footer">
+                    <div class="row">
+                        <div class="col">
+                            <h2>Links Rápidos</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <ul class="col">
+                            <li><a href="#">- Home</a></li>
+                            <li><a href="#">- Análises</a></li>
+                            <li><a href="#">- Novidades</a></li>
+                            <li><a href="#">- e-Sports</a></li>
+                            <li><a href="#">- Sobre nós</a></li>
+                            <li><a href="#">- Loja Online</a></li>
+                        </ul>
+                        <ul class="col">
+                            <li><a href="#">- LoL</a></li>
+                            <li><a href="#">- CS</a></li>
+                            <li><a href="#">- R6</a></li>
+                        </ul>
+                        <ul class="col">
+                            <li><a href="#">- Serviços</a></li>
+                            <li><a href="#">- Newslatter</a></li>
+                            <li><a href="#">- Termos de privacidade</a></li>
+                            <li><a href="#">- Políticas de privacidade</a></li>
+                            <li><a href="#">- Twitter</a></li>
+                            <li><a href="#">- Facebook</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-4 right_footer">
+                    <div class="row">
+                        <h3>@guilhermesandi on twitter</h3>
+                    </div>
+                    <div class="row">
+                        <div class="balao bconversa">Tem campeão novo no LoL, poderiam fazer um "Campeão em destaque" de vocês! hehehe</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-8 user_send">
+                            <p>@guilhermesandi Guilherme</p>
+                        </div>
+                        <div class="col time_send">
+                            <p>14 mins</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h2>Siga-nos:</h2>
+                    </div>
+                    <div class="row social_medias">
+                        <a href="https://www.youtube.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-youtube fa-stack-1x"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-twitter fa-stack-1x"></i>
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        </a>
+                        <a href="https://www.vimeo.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-vimeo-v fa-stack-1x"></i>
+                        </a>
+                        <a href="http://www.linkedin.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" class="fa-stack fa-1x">
+                            <i class="fa fa-circle-thin fa-stack-2x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 footer_copy">
+                    &copy; Copyright 2020. Todos os direitos reservados.
+                </div>
+                
+            </section>
+
+        </footer>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
